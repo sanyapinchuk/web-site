@@ -10,49 +10,39 @@ window.addEventListener('scroll', function() {
     if (pageYOffset < 172)  arraw.style.opacity = '0';
     if(document.documentElement.clientWidth>854)
     {
+        // to add submenu uncomment elem2 and in cicle change 5 to 8
         if (pageYOffset > 172) {
             let elem = document.getElementById('main_menu');
-           // let elem2 = document.getElementsByClassName('submenu');
+          //  let elem2 = document.getElementsByClassName('submenu');
            // let elem3 = document.getElementsByClassName('popmenu');
             let active = this.document.getElementsByClassName('active')[0];
             elem.style.backgroundColor='#9A9A84';
-            //elem2[0].style.backgroundColor='#9A9A84';
-            //elem2[1].style.backgroundColor='#9A9A84';
-            //elem3[0].style.backgroundColor='#9A9A84';
-       //     elem3[1].style.backgroundColor='#9A9A84';
+          //  elem2[0].style.backgroundColor='#9A9A84';
+
             if (active != null) active.style.boxShadow='-14px -18px 21px -4px rgba(16, 16, 14, 0.21) inset';
-            let color_elem = document.getElementsByClassName('new_color');
-            if (window.getComputedStyle(color_elem[0]).color== 'rgb(96, 96, 96)')
+            let color_elem = this.document.getElementsByClassName('new_color');
+           // if (window.getComputedStyle(color_elem[0]).color== 'rgb(96, 96, 96)')
             for(let i=0; i < 5; i++){
                 color_elem[i].style.color='#504315';
             } 
-           
-        /*    for(let i=0; i < 5; i++){
-                borders[i].style.background='green';
-            } */
+
         }
+        // to add submenu uncomment elem2 and in cicle change 5 to 8
         if (pageYOffset < 172) {
             let elem = document.getElementById('main_menu');
-            /*let elem2 = document.getElementsByClassName('submenu');
-            let elem3 = document.getElementsByClassName('popmenu');
-            let borders = document.getElementsByClassName('new_back');*/
+          //  let elem2 = document.getElementsByClassName('submenu');
             let active = this.document.getElementsByClassName('active')[0];
             elem.style.backgroundColor='#E3E3DC';
-            //elem2[0].style.backgroundColor='#E3E3DC';
-           // elem2[1].style.backgroundColor='#E3E3DC';
-           // elem3[0].style.backgroundColor='#E3E3DC';
-           // elem3[1].style.backgroundColor='#E3E3DC';
-           if (active != null) active.style.boxShadow='-14px -18px 16px -1px rgba(101, 101, 101, 0.21) inset';
-            let color_elem = document.getElementsByClassName('new_color');
+         //   elem2[0].style.backgroundColor='#E3E3DC';
 
-            if (window.getComputedStyle(color_elem[0]).color=='rgb(80, 67, 21)')
-            for(let i=0; i < 5; i++){
+           if (active != null) active.style.boxShadow='-14px -18px 16px -1px rgba(101, 101, 101, 0.21) inset';
+           let color_elem = this.document.getElementsByClassName('new_color');
+
+           // if (window.getComputedStyle(color_elem[1]).color=='rgb(80, 67, 21)')
+            for(let i=0; i < 5; i++){ 
                 color_elem[i].style.color='#606060';
             } 
-           
-         /*   for(let i=0; i < 5; i++){
-                borders[i].style.background='#d2d2d2';
-            } */
+
         }
     }
    

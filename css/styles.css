@@ -96,6 +96,10 @@ ul {
    text-decoration: none;
    display: block;
    transition: .4s ease-in-out;
+   
+}
+.topmenu li a{
+   cursor: pointer;
 }
 
 .topmenu>li>a {
@@ -104,6 +108,7 @@ ul {
    text-transform: uppercase;
    font-weight: bold;
    letter-spacing: 1px;
+   cursor: pointer;
 }
 
 .topmenu li a:hover {
@@ -113,7 +118,7 @@ ul {
 .submenu li a {
    border-bottom: 1px solid #efefef;
    font-size: 14px;
- /*  color: #484848;*/
+   color: #606060;
 }
 /*
 @media screen and (max-width: 810px) {*/
@@ -371,6 +376,9 @@ body{
   font-family: 'Inter', sans-serif;
   padding:35px;
 }
+#main_back h1:first-child{
+   font-size: 60px;
+}
 #main_back{
    height: 500px;
    object-fit: cover;
@@ -383,10 +391,16 @@ body{
    background-position: center;
    user-select: none;       
    display: flex;
-   justify-content: space-around;
+   flex-direction: column;
+   justify-content: space-evenly;
    align-items: center;
+   color: #DBDBD5;
 }
-
+@media (max-width: 750px){
+   #main_back h1:first-child{
+      font-size: 50px;
+   }
+}
 .commercial{
    background-image: url("../images/background/cars.jpg");
 }
@@ -1782,17 +1796,17 @@ option {outline: none;}
 #why_us li:last-child {
    border-bottom: none;
 }
-.number_list2{
-display: inline-block;
-font-size: 30px;
-padding-top: 5px;
-height: 45px;
-margin-right: 10px;
-text-align: center;
-background-image: url('../images/icons/circle.png');
-background-size: cover;
-background-position: center;
-margin-bottom: 10px;
+.number_list2 {
+   display: inline-block;
+   font-size: 30px;
+   padding-top: 5px;
+   height: 45px;
+   margin-right: 18px;
+   text-align: center;
+   background-image: url('../images/icons/circle.png');
+   background-size: cover;
+   background-position: center;
+   margin-bottom: 10px;
 }
 .photo_action2{
 width: 100px;
@@ -1805,11 +1819,12 @@ vertical-align: middle;
 width: 100%;
 display: block;
 }
-.description_photo2{
-display: inline-block;
-text-align: left;
-margin: 10px;
-font-weight: 500;
+.description_photo2 {
+   display: inline-block;
+   text-align: left;
+   margin: 10px;
+   font-weight: 500;
+   margin-left: 25px;
 }
 .list_dealers{
    display: flex;
@@ -1824,6 +1839,7 @@ font-weight: 500;
    margin: 20px;
    margin-top: 40px;
    margin-bottom: 40px;
+   /* height: 600px; */
 }
 .one_dealer img{
    width: 100%;
@@ -2018,6 +2034,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6c6c6', end
    font-weight: 600;
    font-size: 20px;
 }
+.team_subname{
+   margin-top: 10px;
+   font-style: italic;
+   font-size: 16px;
+}
 .team_description{
    margin-top: 25px;
    margin-bottom: 10px;
@@ -2037,4 +2058,47 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6c6c6', end
       border-bottom-left-radius: 15px;
       border-bottom-right-radius: 15px;  
    }
+   #link_telchanel a{
+      font-size: 18px;
+   }
+}
+#we-are{
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 100px;
+   flex-wrap: wrap;
+}
+.one-of-we{
+   width: 200px;
+   text-align: center;
+   margin-bottom: 50px;
+}
+.one-of-we img{
+   width: 70%;
+   margin-bottom: 30px;
+}
+.gray_vert_line{
+   width: 2px; 
+   height: 250px; 
+   display: inline-block;
+   background-color: #A4A4A4;
+}
+@media (max-width : 822px)
+{
+   .gray_vert_line{
+      display: none;
+   }
+}
+#our_telegram_chanel{
+   font-size: 22px;
+   text-align: center;
+   margin-top: 10px;
+}
+#link_telchanel{
+   font-size: 25px;
+   margin-top: 10px;
+   font-style: italic;
+}
+#link_telchanel a{
+   text-decoration: underline;
 }
