@@ -5,6 +5,7 @@ const e = require('express')
 const app = express()
 
 const carNames =[
+    '/cars/C_HR_EV',
     '/cars/ID3_pro_blue',
     '/cars/ID3_pro_gray',
     '/cars/ID3_pro_red',
@@ -77,7 +78,7 @@ app.get('/contact_us', (req, res) => {
 })
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /*
-app.post('/cars/ID4x_prime_gray', (req, res) => {  
+app.post('/cars/ID4X_prime_gray', (req, res) => {  
     const message2 = {        
         //to: 'info.itcar@gmail.com',    //заменить туууууууууууууууут
         to: 'sanya.pinchuk.2015@mail.ru',
@@ -85,7 +86,7 @@ app.post('/cars/ID4x_prime_gray', (req, res) => {
         html: `
         <h2>Information about the user:</h2>
         <ul>
-            <li>car's addres:   ${server.address().address}/cars/ID4x_prime_gray
+            <li>car's addres:   ${server.address().address}/cars/ID4X_prime_gray
             <li>name:  ${req.body.name}</li>
             <li>email: ${req.body.email}</li>
             <li>phone: ${req.body.phone}</li>
@@ -95,9 +96,9 @@ app.post('/cars/ID4x_prime_gray', (req, res) => {
     console.log(req.body)
     mailer(message2) 
     user = req.body 
-    res.redirect('/cars/ID4x_prime_gray.html')    
+    res.redirect('/cars/ID4X_prime_gray.html')    
 })
-app.get('/cars/ID4x_prime_gray', (req, res) => {
+app.get('/cars/ID4X_prime_gray', (req, res) => {
     if(typeof user !== 'object') return res.sendFile(__dirname + '/noCar.html')      
     res.sendFile(__dirname + '/noCar.html')
     user = undefined  

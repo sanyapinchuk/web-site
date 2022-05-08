@@ -277,7 +277,7 @@ body{
    }
    #center_up_list{
       display: inline-block;
-      width:220px;
+      width:200px;
    }
    #main_menu{
       position: sticky;
