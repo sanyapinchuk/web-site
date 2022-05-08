@@ -378,6 +378,9 @@ body{
   font-family: 'Inter', sans-serif;
   padding:35px;
 }
+.panel h1{
+   font-size: 25px;
+ }
 #main_back h1:first-child{
    font-size: 60px;
 }
@@ -402,13 +405,13 @@ body{
    color: #DBDBD5;
    transition: all 0.8s;
 }
-#main_back>h1{
+#main_back>h1, #main_back>h2{
    transition: all 0.8s;
 }
 #main_back:hover{
    transform: scale(1.05);
 }
-#main_back:hover>h1{
+#main_back:hover>h1,#main_back:hover>h2{
    letter-spacing: 2px;
 }
 @media (max-width: 750px){
