@@ -633,6 +633,7 @@ p{
 
    display: inline-block;
    text-align: center;
+   padding: 10px;
 }
 table {  border-collapse:collapse; }
 td {
@@ -756,16 +757,17 @@ td {
    margin-top: 5px;
 }
 
-#box_characterstics{
-   width:100%;
+#box_characterstics {
+   width: 100%;
    background-color: #DEDEDE;
-   padding-bottom: 30px;
+   /* padding-bottom: 30px; */
    padding-top: 40px;
+   margin-bottom: 50px;
 }
 #car_characterstics{
    text-align: center;
    margin: auto;
-   width: 70%;
+   width: 80%;
    max-width: 1000px;
  /*  min-width: 793px;*/
    background-color: #E3E3E3;
@@ -920,7 +922,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6c6c6', end
    margin-bottom: 10px;
 }
 #same_cars, .same_cars{  
-   width: 70%;
+   width: 80%;
    max-width: 1000px;
    text-align: center;
    margin: auto;
@@ -1976,14 +1978,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6c6c6', end
 
 
 
-#result_sum{
+#result_sum, #call_us{
    margin: auto;
    margin-bottom: 50px;
-   width: 70%;
+   width: 80%;
    max-width: 1000px;
    
 }
-#header_info_price{  
+#header_info_price, .header_info_price{  
    text-align: center;
    margin: auto;
    background-color: #E3E3E3;
