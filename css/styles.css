@@ -662,6 +662,7 @@ td {
    
    background-color: #CCBD85;
    cursor: pointer;
+   transition: all 0.3s;
 }
 #make-order:hover{
     background-color: #A4976A; 

@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /success_order.html
+Disallow: /node_modules/
+Disallow: /js/
+Disallow: /fonts/
+Disallow: /index.js
+Disallow: /*.json$
+
+Sitemap: https://it-car.by/sitemap.xml
