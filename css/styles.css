@@ -909,10 +909,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6c6c6', end
    align-content: center;
 }
 .type_separate{
-   border-bottom: 2px solid #ABABAB;
+   background-color: #5B5B5B;
+   color: white;
    position: relative;
    text-align: center;
-   font-weight: 600;
+   font-weight: 400;
+   padding-top: 5px;
+   padding-bottom: 5px;
 }
 .__left{
    display: inline-block;
