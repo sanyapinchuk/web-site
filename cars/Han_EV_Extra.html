@@ -49,7 +49,7 @@
 
 		 /*настройка переключения и положения для левой стрелки*/
 		 /*если свич1-5 активны, то идет обращение к лейблу из блока с id контролс*/
-		 #switch1:checked ~ #controls label:nth-child(36),
+		 #switch1:checked ~ #controls label:nth-child(39),
 		 #switch2:checked ~ #controls label:nth-child(1),
 		 #switch3:checked ~ #controls label:nth-child(2),
 		 #switch4:checked ~ #controls label:nth-child(3),
@@ -84,7 +84,10 @@
 		 #switch33:checked ~ #controls label:nth-child(32),
 		 #switch34:checked ~ #controls label:nth-child(33),
 		 #switch35:checked ~ #controls label:nth-child(34),
-		 #switch36checked ~ #controls label:nth-child(35){
+		 #switch36:checked ~ #controls label:nth-child(35),
+		 #switch37:checked ~ #controls label:nth-child(36),
+		 #switch38:checked ~ #controls label:nth-child(37),
+		 #switch39checked ~ #controls label:nth-child(38){
 		 background: url('../images/icons/left_arrow.svg') no-repeat;/*заливка фона картинкой без повторений*/
 		 /*background: url("../images/cars/arrow/prev.png") no-repeat;*/
 		 float: left;
@@ -130,7 +133,10 @@
 		 #switch33:checked ~ #controls label:nth-child(34),
 		 #switch34:checked ~ #controls label:nth-child(35),
 		 #switch35:checked ~ #controls label:nth-child(36),
-		 #switch36:checked ~ #controls label:nth-child(1){
+		 #switch36:checked ~ #controls label:nth-child(37),
+		 #switch37:checked ~ #controls label:nth-child(38),
+		 #switch38:checked ~ #controls label:nth-child(39),
+		 #switch39:checked ~ #controls label:nth-child(1){
 		 background: url('../images/icons/right_arrow.svg') no-repeat; /*заливка фона картинкой без повторений*\
 		 /*background: url("../images/cars/arrow/next.png") no-repeat;*/
 		 float: right;
@@ -301,6 +307,18 @@
 		 margin-left: -3500%;
 		 } 
 
+		 #switch37:checked ~ #slides .image{
+		 margin-left: -3600%;
+		 } 
+			
+		 #switch38:checked ~ #slides .image{
+		 margin-left: -3700%;
+		 }
+
+		 #switch39:checked ~ #slides .image{
+		 margin-left: -3800%;
+		 } 
+
 		 
 
 		 #controls{ /*положение блока всех управляющих элементов*/
@@ -366,7 +384,10 @@
 		 #switch33:checked ~ #active label:nth-child(33),
 		 #switch34:checked ~ #active label:nth-child(34),
 		 #switch35:checked ~ #active label:nth-child(35),
-		 #switch36:checked ~ #active label:nth-child(36){
+		 #switch36:checked ~ #active label:nth-child(36),
+		 #switch37:checked ~ #active label:nth-child(37),
+		 #switch38:checked ~ #active label:nth-child(38),
+		 #switch39:checked ~ #active label:nth-child(39){
 		 opacity: 1;
 		 }
 
@@ -473,45 +494,51 @@
 								<input type="radio" name="slider" id="switch34">
 								<input type="radio" name="slider" id="switch35">
 								<input type="radio" name="slider" id="switch36">
+								<input type="radio" name="slider" id="switch37">
+								<input type="radio" name="slider" id="switch38">
+								<input type="radio" name="slider" id="switch39">
 							<div id="slides">
 								<div id="overflow">
 									<div class="image">
-										<article><img src="../images\cars\Xpeng_P5_550G/1.jpg"></article>
-										<article><img src="../images\cars\Xpeng_P5_550G/2.jpg"></article>
-										<article><img src="../images\cars\Xpeng_P5_550G/3.jpg"></article>
-										<article><img src="../images\cars\Xpeng_P5_550G/4.jpg"></article>
-										<article><img src="../images\cars\Xpeng_P5_550G/5.jpg"></article>
-										<article><img src="../images/cars/Xpeng_P5_550G/6.jpg"></article>
-										<article><img src="../images/cars/Xpeng_P5_550G/7.jpg"></article>
-										<article><img src="../images/cars/Xpeng_P5_550G/8.jpg"></article>
-										<article><img src="../images\cars\Xpeng_P5_550G/9.jpg"></article>
-										<article><img src="../images/cars/Xpeng_P5_550G/10.jpg"></article>
-										<article><img src="../images/cars/Xpeng_P5_550G/11.jpg"></article>
-										<article><img src="../images/cars/Xpeng_P5_550G/12.jpg"></article>
-										<article><img src="../images\cars\Xpeng_P5_550G/13.jpg"></article>
-										<article><img src="../images/cars/Xpeng_P5_550G/14.jpg"></article>
-										<article><img src="../images/cars/Xpeng_P5_550G/15.jpg"></article>
-										<article><img src="../images/cars/Xpeng_P5_550G/16.jpg"></article>
-										<article><img src="../images/cars/Xpeng_P5_550G/17.jpg"></article>
-										<article><img src="../images\cars\Xpeng_P5_550G/18.jpg"></article>
-										<article><img src="../images/cars/Xpeng_P5_550G/19.jpg"></article>
-										<article><img src="../images/cars/Xpeng_P5_550G/20.jpg"></article>
-										<article><img src="../images/cars/Xpeng_P5_550G/21.jpg"></article>
-										<article><img src="../images/cars/Xpeng_P5_550G/22.jpg"></article>
-										<article><img src="../images\cars\Xpeng_P5_550G/23.jpg"></article>
-										<article><img src="../images/cars/Xpeng_P5_550G/24.jpg"></article>
-										<article><img src="../images/cars/Xpeng_P5_550G/25.jpg"></article>
-										<article><img src="../images/cars/Xpeng_P5_550G/26.jpg"></article>
-										<article><img src="../images/cars/Xpeng_P5_550G/27.jpg"></article>
-										<article><img src="../images\cars\Xpeng_P5_550G/28.jpg"></article>
-										<article><img src="../images/cars/Xpeng_P5_550G/29.jpg"></article>
-										<article><img src="../images/cars/Xpeng_P5_550G/30.jpg"></article>
-										<article><img src="../images/cars/Xpeng_P5_550G/31.jpg"></article>
-										<article><img src="../images/cars/Xpeng_P5_550G/32.jpg"></article>
-										<article><img src="../images\cars\Xpeng_P5_550G/33.jpg"></article>
-										<article><img src="../images/cars/Xpeng_P5_550G/34.jpg"></article>
-										<article><img src="../images\cars\Xpeng_P5_550G/35.jpg"></article>
-										<article><img src="../images/cars/Xpeng_P5_550G/36.jpg"></article>
+										<article><img src="../images\cars\Han_EV_Extra/1.jpg"></article>
+										<article><img src="../images\cars\Han_EV_Extra/2.jpg"></article>
+										<article><img src="../images\cars\Han_EV_Extra/3.jpg"></article>
+										<article><img src="../images\cars\Han_EV_Extra/4.jpg"></article>
+										<article><img src="../images\cars\Han_EV_Extra/5.jpg"></article>
+										<article><img src="../images/cars/Han_EV_Extra/6.jpg"></article>
+										<article><img src="../images/cars/Han_EV_Extra/7.jpg"></article>
+										<article><img src="../images/cars/Han_EV_Extra/8.jpg"></article>
+										<article><img src="../images\cars\Han_EV_Extra/9.jpg"></article>
+										<article><img src="../images/cars/Han_EV_Extra/10.jpg"></article>
+										<article><img src="../images/cars/Han_EV_Extra/11.jpg"></article>
+										<article><img src="../images/cars/Han_EV_Extra/12.jpg"></article>
+										<article><img src="../images\cars\Han_EV_Extra/13.jpg"></article>
+										<article><img src="../images/cars/Han_EV_Extra/14.jpg"></article>
+										<article><img src="../images/cars/Han_EV_Extra/15.jpg"></article>
+										<article><img src="../images/cars/Han_EV_Extra/16.jpg"></article>
+										<article><img src="../images/cars/Han_EV_Extra/17.jpg"></article>
+										<article><img src="../images\cars\Han_EV_Extra/18.jpg"></article>
+										<article><img src="../images/cars/Han_EV_Extra/19.jpg"></article>
+										<article><img src="../images/cars/Han_EV_Extra/20.jpg"></article>
+										<article><img src="../images/cars/Han_EV_Extra/21.jpg"></article>
+										<article><img src="../images/cars/Han_EV_Extra/22.jpg"></article>
+										<article><img src="../images\cars\Han_EV_Extra/23.jpg"></article>
+										<article><img src="../images/cars/Han_EV_Extra/24.jpg"></article>
+										<article><img src="../images/cars/Han_EV_Extra/25.jpg"></article>
+										<article><img src="../images/cars/Han_EV_Extra/26.jpg"></article>
+										<article><img src="../images/cars/Han_EV_Extra/27.jpg"></article>
+										<article><img src="../images\cars\Han_EV_Extra/28.jpg"></article>
+										<article><img src="../images/cars/Han_EV_Extra/29.jpg"></article>
+										<article><img src="../images/cars/Han_EV_Extra/30.jpg"></article>
+										<article><img src="../images/cars/Han_EV_Extra/31.jpg"></article>
+										<article><img src="../images/cars/Han_EV_Extra/32.jpg"></article>
+										<article><img src="../images\cars\Han_EV_Extra/33.jpg"></article>
+										<article><img src="../images/cars/Han_EV_Extra/34.jpg"></article>
+										<article><img src="../images\cars\Han_EV_Extra/35.jpg"></article>
+										<article><img src="../images/cars/Han_EV_Extra/36.jpg"></article>
+										<article><img src="../images/cars/Han_EV_Extra/37.jpg"></article>
+										<article><img src="../images\cars\Han_EV_Extra/38.jpg"></article>
+										<article><img src="../images/cars/Han_EV_Extra/39.jpg"></article>
 									</div>
 								</div>
 								<div id="__left_block"></div>
@@ -555,52 +582,58 @@
 								<label for="switch34"></label>
 								<label for="switch35"></label>
 								<label for="switch36"></label>
+								<label for="switch37"></label>
+								<label for="switch38"></label>
+								<label for="switch39"></label>
 							</div>
 							<div id="active">
-								<label 	style= "background-image: url('../images/cars/Xpeng_P5_550G/1.jpg');" for="switch1"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/2.jpg');" for="switch2"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/3.jpg');" for="switch3"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/4.jpg');" for="switch4"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/5.jpg');" for="switch5"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/6.jpg');" for="switch6"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/7.jpg');" for="switch7"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/8.jpg');" for="switch8"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/9.jpg');" for="switch9"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/10.jpg');" for="switch10"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/11.jpg');" for="switch11"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/12.jpg');" for="switch12"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/13.jpg');" for="switch13"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/14.jpg');" for="switch14"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/15.jpg');" for="switch15"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/16.jpg');" for="switch16"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/17.jpg');" for="switch17"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/18.jpg');" for="switch18"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/19.jpg');" for="switch19"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/20.jpg');" for="switch20"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/21.jpg');" for="switch21"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/22.jpg');" for="switch22"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/23.jpg');" for="switch23"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/24.jpg');" for="switch24"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/25.jpg');" for="switch25"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/26.jpg');" for="switch26"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/27.jpg');" for="switch27"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/28.jpg');" for="switch28"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/29.jpg');" for="switch29"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/30.jpg');" for="switch30"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/31.jpg');" for="switch31"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/32.jpg');" for="switch32"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/33.jpg');" for="switch33"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/34.jpg');" for="switch34"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/35.jpg');" for="switch35"></label>
-								<label  style= "background-image: url('../images/cars/Xpeng_P5_550G/36.jpg');" for="switch36"></label>
+								<label 	style= "background-image: url('../images/cars/Han_EV_Extra/1.jpg');" for="switch1"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/2.jpg');" for="switch2"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/3.jpg');" for="switch3"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/4.jpg');" for="switch4"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/5.jpg');" for="switch5"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/6.jpg');" for="switch6"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/7.jpg');" for="switch7"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/8.jpg');" for="switch8"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/9.jpg');" for="switch9"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/10.jpg');" for="switch10"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/11.jpg');" for="switch11"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/12.jpg');" for="switch12"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/13.jpg');" for="switch13"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/14.jpg');" for="switch14"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/15.jpg');" for="switch15"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/16.jpg');" for="switch16"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/17.jpg');" for="switch17"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/18.jpg');" for="switch18"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/19.jpg');" for="switch19"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/20.jpg');" for="switch20"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/21.jpg');" for="switch21"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/22.jpg');" for="switch22"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/23.jpg');" for="switch23"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/24.jpg');" for="switch24"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/25.jpg');" for="switch25"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/26.jpg');" for="switch26"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/27.jpg');" for="switch27"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/28.jpg');" for="switch28"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/29.jpg');" for="switch29"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/30.jpg');" for="switch30"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/31.jpg');" for="switch31"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/32.jpg');" for="switch32"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/33.jpg');" for="switch33"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/34.jpg');" for="switch34"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/35.jpg');" for="switch35"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/36.jpg');" for="switch36"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/37.jpg');" for="switch37"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/38.jpg');" for="switch38"></label>
+								<label  style= "background-image: url('../images/cars/Han_EV_Extra/39.jpg');" for="switch39"></label>
 							</div>		
 						</div>			
 					</div>
 					<table class="info">
 						<tr style="top:-10%;">
 							<td style="vertical-align:bottom;">
-								<div id="model">P5 550G<white>
-								<div id="price"> Итоговая цена с учётом доставки: <b>$42.120</b></div>
+								<div id="model">Han EV Extra Long Range Deluxe<white>
+								<div id="price"> Итоговая цена с учётом доставки: <b>$38.650</b></div>
 								<button id="make-order">Заказать</button>		
 							</td> 
 						</tr>
@@ -612,10 +645,10 @@
 							<div id="tech_ch">ТЕХНИЧЕСКИЕ ХАРАКТЕРИСТИКИ</div>
 						</div>					
 						<ul>				
-							<li> <img src="../images/icons/brand.png">Марка <span>XPENG</span></li>
-							<li> <img src="../images/icons/color.png">Цвет <span>Белый/Чёрный</span></li>
-							<li> <img src="../images/icons/inter.png">Интерьер <span>Тёмный</span></li>
-							<li> <img src="../images/icons/road.svg">Запас хода (NEDC) <span>550 км</span></li>
+							<li> <img src="../images/icons/brand.png">Марка <span>BYD</span></li>
+							<li> <img src="../images/icons/color.png">Цвет <span>Серый/Красный императорский/Белый/Черный</span></li>
+							<li> <img src="../images/icons/inter.png">Интерьер <span>Тёмно-бежевый</span></li>
+							<li> <img src="../images/icons/road.svg">Запас хода (NEDC) <span>605 км</span></li>
 						</ul>
 						<div class="add_info" id="add_info">
 							
@@ -623,22 +656,22 @@
 
 
 							<div class="mesta main_border">
-								<div class="__left">Привод</div><div class="__right">Передний</div>
+						4		<div class="__left">Привод</div><div class="__right">Передний</div>
 							</div>
 							<div class="mesta main_border">
-								<div class="__left">Конструкция кузова</div><div class="__right">4-дверный 5-местный седан</div>
-							</div>
+						4		<div class="__left">Конструкция кузова</div><div class="__right">4-дверный 5-местный седан</div>
+							</div>							
 							<div class="mesta main_border">
-								<div class="__left">Тип двигателя</div><div class="__right">Синхронный двигатель с постоянными магнитами второго поколения </div>
-							</div>
-							<div class="mesta main_border">
-								<div class="__left">Максимальная мощность двигателя/максимальный крутящий момент</div><div class="__right">155кВт/310Н·м</div>
+						4		<div class="__left">Максимальная мощность двигателя/максимальный крутящий момент</div><div class="__right">163кВт/330Н·м</div>
 							</div>
 							<div class="power main_border">
-								<div class="__left">Максимальная скорость</div><div class="__right" >170 км/ч</div>
+						4		<div class="__left">Максимальная скорость</div><div class="__right" >185 км/ч</div>
 							</div>	
 							<div class="mesta main_border">
-								<div class="__left">Ускорение 0-100 км/ч</div><div class="__right">7.5 с</div>
+						4		<div class="__left">Потребляемая мощность на 100 км (кВтч/100 км)</div><div class="__right">14.1</div>
+							</div>
+							<div class="mesta main_border">
+						4		<div class="__left">Ускорение 0-100 км/ч</div><div class="__right">7.9 с</div>
 							</div>
 
 
@@ -646,10 +679,10 @@
 
 
 							<div class="mesta main_border">
-								<div class="__left">Тип аккумулятора</div><div class="__right">тройная литиевая батарея </div>
+						4		<div class="__left">Тип аккумулятора</div><div class="__right">Литий-железо-фосфатный аккумулятор</div>
 							</div>
 							<div class="mesta main_border">
-								<div class="__left">Время быстрой зарядки постоянным током (от 30 до 80%)</div><div class="__right">≥ 35 мин</div>
+						4		<div class="__left">Время быстрой зарядки постоянным током (от 20 до 80%)</div><div class="__right">≥ 0.42 ч</div>
 							</div>
 
 
@@ -657,70 +690,96 @@
 
 
 							<div class="mesta main_border">
-								<div class="__left">Длина, ширина, высота</div><div class="__right">4808мм/1840мм/1520мм </div>
+						4		<div class="__left">Длина, ширина, высота</div><div class="__right">4980мм/1910мм/1495мм </div>
 							</div>
 							<div class="mesta main_border">
-								<div class="__left">Панорамная крыша</div><div class="__right">✔</div>
+						4		<div class="__left">Открывающийся панорамный люк</div><div class="__right">✔</div>
 							</div>
 							<div class="mesta main_border">
-								<div class="__left">Минимальный диаметр поворота</div><div class="__right">≤11,2 м</div>
+						4		<div class="__left">Колесная база</div><div class="__right">2920мм</div>
+							</div>						
+							<div class="mesta main_border">
+						4		<div class="__left">Шины</div><div class="__right" >245/45R19 </div>
 							</div>
 							<div class="mesta main_border">
-								<div class="__left">Колесная база</div><div class="__right">2768мм</div>
-							</div>
-							<div class="mesta main_border">
-								<div class="__left">17-дюймовые колеса с пятью спицами (низкое сопротивление)</div><div class="__right" >✔</div>
+						4		<div class="__left">Тип передней подвески</div><div class="__right">Независимая подвеска McPherson</div>
 							</div>							
 							<div class="mesta main_border">
-								<div class="__left">17-дюймовые шины (215/55R17 Bridgestone)</div><div class="__right" >✔</div>
+						4		<div class="__left">Тип задней подвески</div><div class="__right">Multilink</div>
 							</div>
 							<div class="mesta main_border">
-								<div class="__left">Тип передней подвески</div><div class="__right">Независимая подвеска McPherson</div>
-							</div>							
-							<div class="mesta main_border">
-								<div class="__left">Тип задней подвески</div><div class="__right">Зависимая подвеска на торсионной балке</div>
-							</div>
-							<div class="mesta main_border">
-								<div class="__left">Тормоза передние</div><div class="__right">вентилируемые диски</div>
+						4		<div class="__left">Тормоза передние</div><div class="__right">вентилируемые диски</div>
 							</div>
 							<div class="wheel main_border">
-								<div class="__left">Тормоза задние</div><div class="__right" >диски</div>
+						4		<div class="__left">Тормоза задние</div><div class="__right" >диски</div>
 							</div>
 							<div class="power main_border">
-								<div class="__left">Стояночный тормоз</div><div class="__right" >электронная парковка</div>
+						4		<div class="__left">Стояночный тормоз</div><div class="__right" >электронная парковка</div>
 							</div>							
-							<div class="gabarits main_border">
-								<div class="__left">Скрытая электроручка двери</div><div class="__right" >✔</div>
-							</div>
 
 
 							<div class="type_separate">Фары</div>
 
 
 							<div class="wheel main_border">
-								<div class="__left">Светодиодные фары передние/задние/стоп-сигналы/противотуманные</div><div class="__right" >✔</div>
+						4		<div class="__left">Матричные светодиодные фары передние/задние/стоп-сигналы/противотуманные</div><div class="__right" >✔</div>
 							</div>
+							<div class="wheel main_border">
+						4		<div class="__left">Адаптивный дальний и ближний свет</div><div class="__right" >✔</div>
+							</div>
+							<div class="wheel main_border">
+						4		<div class="__left">Отложенное выключение фар</div><div class="__right" >✔</div>
+							</div>
+							
 
 
-							<div class="type_separate">Зеркала</div>
+							<div class="type_separate">Зеркала и стекла</div>
 
 
 							<div class="power main_border">
-								<div class="__left">Наружные зеркала заднего вида </div><div class="__right">Электрическая регулировка, Электрическое складывание, Память зеркал заднего вида, Обогрев зеркал заднего вида</div>
+						4		<div class="__left">Наружные зеркала заднего вида </div><div class="__right">Электрическая регулировка, Электрическое складывание, Обогрев зеркал заднего вида</div>
 							</div>
 							<div class="power main_border">
-								<div class="__left">Функция внутреннего зеркала заднего вида</div><div class="__right">антибликовое покрытие</div>
+						4		<div class="__left">Функция внутреннего зеркала заднего вида</div><div class="__right">антибликовое покрытие</div>
 							</div>
+							<div class="power main_border">
+						4		<div class="__left">Передние/задние электростеклоподъемники</div><div class="__right">✔</div>
+							</div>
+							<div class="power main_border">
+						4		<div class="__left">Функция подъема окна одной кнопкой</div><div class="__right">вся машина</div>
+							</div>
+							<div class="power main_border">
+						4		<div class="__left">Функция защиты от защемления окном</div><div class="__right">✔</div>
+							</div>
+							<div class="power main_border">
+						4		<div class="__left">Многослойное звуконепроницаемое стекло</div><div class="__right">передний ряд</div>
+							</div>
+							<div class="power main_border">
+						4		<div class="__left">Косметические зеркала</div><div class="__right">водительское, переднее пассажирское</div>
+							</div>
+							
 
 
 							<div class="type_separate">Водительская зона</div>
 
 
 							<div class="power main_border">
-								<div class="__left">Многофункциональное рулевое колесо</div><div class="__right">✔</div>
+						4		<div class="__left">Многофункциональное рулевое колесо</div><div class="__right">✔</div>
 							</div>
 							<div class="power main_border">
-								<div class="__left">6-позиционная электрическая регулировка сиденья водителя (с памятью, поддержка управления большим экраном</div><div class="__right">✔</div>
+						4		<div class="__left">12.3-дюймовый цветной ЖК-экран управления</div><div class="__right">✔</div>
+							</div>
+							<div class="power main_border">
+						4		<div class="__left">Регулировка положения рулевого колеса</div><div class="__right">Ручная регулировка вверх и вниз, вперед и назад</div>
+							</div>
+							<div class="power main_border">
+						4		<div class="__left">Материал рулевого колеса</div><div class="__right">Натуральная кожа</div>
+							</div>
+							<div class="power main_border">
+						4		<div class="__left">Встроенный регистратор вождения</div><div class="__right">✔</div>
+							</div>
+							<div class="power main_border">
+						4		<div class="__left">Регулировка положения рулевого колеса</div><div class="__right">Ручная регулировка вверх и вниз, вперед и назад</div>
 							</div>
 
 
@@ -728,10 +787,10 @@
 
 
 							<div class="power main_border">
-								<div class="__left">Кондиционер</div><div class="__right">✔</div>
+						4		<div class="__left">Кондиционер</div><div class="__right">✔</div>
 							</div>
 							<div class="power main_border">
-								<div class="__left">Независимая автоматическая система кондиционирования воздуха с двумя температурными зонами (обнаружение и очистка PM2.5)</div><div class="__right">✔</div>
+						4		<div class="__left">Независимая автоматическая система кондиционирования воздуха с двумя температурными зонами (обнаружение и очистка PM2.5)</div><div class="__right">✔</div>
 							</div>
 
 
@@ -739,42 +798,79 @@
 
 
 							<div class="power main_border">
-								<div class="__left">Подушки безопасности</div><div class="__right">основные, пассажирские, передние боковые, передние/задние боковые для головы (занавески) </div>
+						4		<div class="__left">Подушки безопасности</div><div class="__right">основные, пассажирские, передние/задние боковые, передние/задние боковые (воздушная завеса), коленная подушка безопасности</div>
+							</div>
+							<div class="power main_border">	
+						4		<div class="__left">Интерфейс детского сиденья ISOFIX</div><div class="__right">✔</div>
 							</div>
 							<div class="power main_border">
-								<div class="__left">Интерфейс детского сиденья ISOFIX</div><div class="__right">✔</div>
+						4		<div class="__left">Антиблокировочная система ABS</div><div class="__right">✔</div>
 							</div>
 							<div class="power main_border">
-								<div class="__left">Антиблокировочная система ABS</div><div class="__right">✔</div>
+						4		<div class="__left">Распределение тормозного усилия (EBD/CBC и т.д.)</div><div class="__right">✔</div>
 							</div>
 							<div class="power main_border">
-								<div class="__left">Распределение тормозного усилия (EBD/CBC и т.д.)</div><div class="__right">✔</div>
+						4		<div class="__left">Система экстренного торможения (EBA/BAS/BA и т. д.)</div><div class="__right">✔</div>
 							</div>
 							<div class="power main_border">
-								<div class="__left">Система экстренного торможения (EBA/BAS/BA и т. д.)</div><div class="__right">✔</div>
+						4		<div class="__left">Противобуксовочная система (ASR/TCS/TRC и т. д.)</div><div class="__right">✔</div>
 							</div>
 							<div class="power main_border">
-								<div class="__left">Противобуксовочная система (ASR/TCS/TRC и т. д.)</div><div class="__right">✔</div>
+						4		<div class="__left">Контроль устойчивости кузова (ESC/ESP/DSC и т. д.)</div><div class="__right">✔</div>
 							</div>
 							<div class="power main_border">
-								<div class="__left">Контроль устойчивости кузова (ESC/ESP/DSC и т. д.)</div><div class="__right">✔</div>
+						4		<div class="__left">Система предупреждения о выезде с полосы движения</div><div class="__right">✔</div>
+							</div>
+							<div class="power main_border">
+						4		<div class="__left">Система удержания полосы движения</div><div class="__right">✔</div>
+							</div>
+							<div class="power main_border">
+						4		<div class="__left">Распознавание дорожных знаков</div><div class="__right">✔</div>
+							</div>
+							<div class="power main_border">
+						4		<div class="__left">Активный тормоз / система активной безопасности</div><div class="__right">✔</div>
+							</div>
+							<div class="power main_border">
+						4		<div class="__left">Автоматическое включение дворников</div><div class="__right">Датчик дождя</div>
 							</div>
 
 							
 							<div class="type_separate">Мультимедиа/интерфейс</div>
 
 
+
 							<div class="power main_border">
-								<div class="__left">Беспроводная зарядка мобильного телефона</div><div class="__right">✔</div>
+						4		<div class="__left">15.6-дюймовый сенсорный цветной экран центрального управления</div><div class="__right">✔</div>
 							</div>
 							<div class="power main_border">
-								<div class="__left">Мультимедийный/зарядный интерфейс</div><div class="__right">USB, Type-C</div>
+						4		<div class="__left">Система спутниковой навигации</div><div class="__right">✔</div>
 							</div>
 							<div class="power main_border">
-								<div class="__left">Порты USB/Type-C</div><div class="__right">3 в переднем ряду / 2 в заднем ряду</div>
+						4		<div class="__left">Вызов помощи в дороге</div><div class="__right">✔</div>
 							</div>
 							<div class="power main_border">
-								<div class="__left">Динамики</div><div class="__right">6</div>
+						4		<div class="__left">Bluetooth</div><div class="__right">✔</div>
+							</div>
+							<div class="power main_border">
+						4		<div class="__left">Поддержка HiCar </div><div class="__right">✔</div>
+							</div>
+							<div class="power main_border">
+						4		<div class="__left">3G/4G</div><div class="__right">✔</div>
+							</div>
+							<div class="power main_border">
+						4		<div class="__left">ОТА-обновления</div><div class="__right">✔</div>
+							</div>
+							<div class="power main_border">
+						4		<div class="__left">Беспроводная зарядка мобильного телефона</div><div class="__right">передний ряд</div>
+							</div>
+							<div class="power main_border">
+						4		<div class="__left">Мультимедийный/зарядный интерфейс</div><div class="__right">USB, SD</div>
+							</div>
+							<div class="power main_border">
+						4		<div class="__left">Количество портов USB/Type-C</div><div class="__right">4 в переднем ряду / 2 в заднем ряду</div>
+							</div>
+							<div class="power main_border">
+						4		<div class="__left">Динамики</div><div class="__right">8</div>
 							</div>
 
 
@@ -782,19 +878,19 @@
 							
 							
 							<div class="power main_border">
-								<div class="__left">Кожанные сидения премиум-класса</div><div class="__right">✔</div>
+						4		<div class="__left">Сидения</div><div class="__right">Искусственная кожа</div>
 							</div>
 							<div class="power main_border">
-								<div class="__left">Кожаный руль</div><div class="__right">✔</div>
+						4		<div class="__left">Руль</div><div class="__right">Натуральная кожа</div>
 							</div>
 							<div class="power main_border">
-								<div class="__left">Встроенный подголовник для сиденья водителя/пассажира</div><div class="__right">✔</div>
+						4		<div class="__left">Подлокотник</div><div class="__right">пердний/задний</div>
 							</div>
 							<div class="power main_border">
-								<div class="__left">Задний центральный подлокотник с подстаканником</div><div class="__right">✔</div>
-							</div>
-							<div class="power main_border">
-								<div class="__left">Материал потолка</div><div class="__right">Серая ткань премиум-класса</div>
+						4		<div class="__left">Подстаканник</div><div class="__right">✔</div>
+							</div>							
+							<div class="wheel main_border">
+						4		<div class="__left">Подсветка для чтения</div><div class="__right" >✔</div>
 							</div>
 							
 							
@@ -802,92 +898,50 @@
 
 
 							<div class="mesta main_border">
-								<div class="__left">Переключение режимов движения</div><div class="__right" >Спортивный, Экономичный, Стандарт/Комфорт</div>
+						4		<div class="__left">Переключение режимов движения</div><div class="__right" >Спортивный, Экономичный, Зима</div>
 							</div>							
 							<div class="wheel_base main_border">
-								<div class="__left">Помощь в подъеме</div><div class="__right">✔</div>
+						4		<div class="__left">Помощь в подъеме</div><div class="__right">✔</div>
 							</div>
 							<div class="engine main_border">
-								<div class="__left">Крутой спуск</div><div class="__right"  >✔</div>
+						4		<div class="__left">Парковочные датчики</div><div class="__right"  >передний и задний</div>
 							</div>
 							<div class="max_speed main_border">
-								<div class="__left">Ультразвуковые датчики</div><div class="__right" >4</div>
-							</div>
-							<div class="full_weight main_border">
-								<div class="__left">Камера кругового обзора</div><div class="__right" >1</div>
-							</div>													
-							<div class="parking main_border">
-								<div class="__left">Задняя камера заднего вида с линией помощи при парковке</div><div class="__right" >✔</div>
+						4		<div class="__left">Камера кругового обзора </div><div class="__right" >360 градусов</div>
+							</div>											
+							<div class="power main_border">
+						4		<div class="__left">Адаптивный круиз-контроль </div><div class="__right">✔</div>
 							</div>
 							<div class="power main_border">
-								<div class="__left">Круиз-контроль </div><div class="__right">✔</div>
+						4		<div class="__left">Предварительный подогрев батареи </div><div class="__right">✔</div>
 							</div>
 							<div class="power main_border">
-								<div class="__left">Регулировка фар</div><div class="__right">✔</div>
+						4		<div class="__left">Функция контроля давления в шинах</div><div class="__right">Отображение давления в шинах</div>
 							</div>
 							<div class="power main_border">
-								<div class="__left">Передние/задние электростеклоподъемники</div><div class="__right">✔</div>
+						4		<div class="__left">Напоминание о непристегнутом ремне безопасности</div><div class="__right">вся машина</div>
 							</div>
 							<div class="power main_border">
-								<div class="__left">Функция подъема окна одной кнопкой</div><div class="__right">вся машина</div>
+						4		<div class="__left">Электрорегулировка пассажирского и водительского сиденья</div><div class="__right">✔</div>
 							</div>
 							
-							<div class="power main_border">
-								<div class="__left">Функция защиты от защемления окном </div><div class="__right">✔</div>
-							</div>
-							<div class="power main_border">
-								<div class="__left">Косметические зеркала</div><div class="__right">водительское, переднее пассажирское</div>
-							</div>
-							
-							<div class="power main_border">
-								<div class="__left">Сиденье пассажира с электрорегулировкой в 4 направлениях</div><div class="__right">✔</div>
-							</div>
-							<div class="power main_border">
-								<div class="__left">Напоминание о непристегнутом ремне безопасности</div><div class="__right">вся машина</div>
-							</div>
-							<div class="power main_border">
-								<div class="__left">Функция контроля давления в шинах</div><div class="__right">Отображение давления в шинах</div>
-							</div>
-							<div class="power main_border">
-								<div class="__left">Подогрев батареи </div><div class="__right">✔</div>
-							</div>
-							<div class="power main_border">
-								<div class="__left">15.6-дюймовый плавающий сенсорный экран центрального управления</div><div class="__right">✔</div>
-							</div>
-							<div class="power main_border">
-								<div class="__left">12.3-дюймовая интеллектуальная панель с ЖК-дисплеем высокой четкости </div><div class="__right">✔</div>
-							</div>
-							<div class="power main_border">
-								<div class="__left">Подключение к Wi-Fi/4G</div><div class="__right">✔</div>
-							</div>
-							<div class="power main_border">
-								<div class="__left">Караоке в машине</div><div class="__right">✔</div>
-							</div>
-							<div class="power main_border">
-								<div class="__left">Система удаленной диагностики</div><div class="__right">✔</div>
-							</div>
-							<div class="power main_border">
-								<div class="__left">Голосовой помощник с искусственным интеллектом</div><div class="__right">✔</div>
-							</div>
-							<div class="power main_border">
-								<div class="__left">Интеллектуальный режим управления</div><div class="__right">✔</div>
-							</div>
-							<div class="power main_border">
-								<div class="__left">Функция удаленного запуска</div><div class="__right">✔</div>
-							</div>
-							<div class="power main_border">
-								<div class="__left">Интеллектуальный поиск автомобиля</div><div class="__right">✔</div>
-							</div>
-							<div class="power main_border">
-								<div class="__left">Тип ключа</div><div class="__right">Ключ дистанционного управления, Ключ Bluetooth</div>
-							</div>
-							<div class="power main_border">
-								<div class="__left">Умная навигация</div><div class="__right">✔</div>
-							</div>
 
 
+							<div class="type_separate">Ключ</div>
 							
-							
+
+							<div class="power main_border">
+						4		<div class="__left">Тип ключа</div><div class="__right">Удаленный ключ, Ключ Bluetooth, Ключ NFC / RFID</div>
+							</div>
+							<div class="power main_border">
+						4		<div class="__left">Система запуска без ключа</div><div class="__right">✔</div>
+							</div>
+							<div class="power main_border">
+						4		<div class="__left">Скрытая дверная ручка с электроприводом</div><div class="__right">✔</div>
+							</div>
+							<div class="power main_border">
+						4		<div class="__left">Функция дистанционного запуска</div><div class="__right">✔</div>
+							</div>
 
 
 							
