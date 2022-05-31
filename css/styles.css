@@ -622,21 +622,28 @@ p{
    display: flex;
    flex-wrap: wrap;
    justify-content: space-evenly;
-
 }
 
-.all{
-   left:20%;
-   display: inline-block; 
-   min-width: 260px; 
+.all {
+   left: 20%;
+   display: inline-block;
+   min-width: 260px;
    margin-right: 55px;
    margin-left: 55px;
+   flex-shrink: 0;
+   flex-basis: 45%;
+   /* min-width: 45%; */
+   flex-grow: 1;
 }
-.info{
-
+.info {
    display: inline-block;
    text-align: center;
    padding: 10px;
+   /* max-width: 40%; */
+   flex-shrink: 1;
+   min-width: 40%;
+   flex-basis: 45%;
+   flex-grow: 2;
 }
 table {  border-collapse:collapse; }
 td {
