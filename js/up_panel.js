@@ -6,8 +6,13 @@ document.querySelector("#arrow_up").onclick = function(){
 
 window.addEventListener('scroll', function() {
     let arraw = this.document.getElementById('arrow_up');
-    if (pageYOffset > 172)  arraw.style.opacity = '0.7';
-    if (pageYOffset < 172)  arraw.style.opacity = '0';
+    if (pageYOffset > 172)
+    {
+        arraw.style.opacity = '0.7';
+    }  
+    if (pageYOffset < 172) {
+        arraw.style.opacity = '0';
+    } 
     if(document.documentElement.clientWidth>854)
     {
         // to add submenu uncomment elem2 and in cicle change 5 to 8
