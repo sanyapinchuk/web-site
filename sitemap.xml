@@ -1,204 +1,242 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-		<!--	created with www.mysitemapgenerator.com	-->
-		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
-	<loc>https://it-car.by/</loc>
-	<lastmod>2022-05-09T02:59:09+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://it-car.by/</loc>
+  <lastmod>2022-06-03T22:53:55+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-	<loc>https://it-car.by/index</loc>
-	<lastmod>2022-05-09T02:59:09+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://it-car.by/commercial</loc>
+  <lastmod>2022-06-03T22:52:48+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://it-car.by/commercial</loc>
-	<lastmod>2022-05-09T02:59:09+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://it-car.by/passenger</loc>
+  <lastmod>2022-06-03T22:54:08+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://it-car.by/passenger</loc>
-	<lastmod>2022-05-09T02:59:09+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://it-car.by/news</loc>
+  <lastmod>2022-06-03T22:53:55+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://it-car.by/news</loc>
-	<lastmod>2022-05-09T02:59:09+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://it-car.by/contact_us</loc>
+  <lastmod>2022-06-03T22:53:55+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://it-car.by/contact_us</loc>
-	<lastmod>2022-05-09T02:59:09+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://it-car.by/cars/C_HR_EV</loc>
+  <lastmod>2022-05-09T16:30:25+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://it-car.by/cars/C_HR_EV</loc>
-	<lastmod>2022-05-09T02:59:09+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://it-car.by/cars/ID4X_prime_white</loc>
+  <lastmod>2022-05-09T16:30:26+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://it-car.by/cars/ID4X_prime_white</loc>
-	<lastmod>2022-05-09T02:59:09+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://it-car.by/cars/ID6X_prime_gold</loc>
+  <lastmod>2022-05-09T16:30:27+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://it-car.by/cars/ID6X_prime_gold</loc>
-	<lastmod>2022-05-09T02:59:09+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://it-car.by/cars/ID6X_pure_gray</loc>
+  <lastmod>2022-05-09T16:30:27+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://it-car.by/cars/ID6X_pure_gray</loc>
-	<lastmod>2022-05-09T02:59:09+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://it-car.by/cars/Han_EV_Standart</loc>
+  <lastmod>2022-06-03T23:08:39+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>http://it-car.by/</loc>
-	<lastmod>2022-05-09T02:59:09+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://it-car.by/cars/Chevrolet_Menlo_Plus</loc>
+  <lastmod>2022-06-03T23:08:38+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://it-car.by/cars/ID4X_prime_blue</loc>
-	<lastmod>2022-05-09T02:59:12+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://it-car.by/cars/Xpeng_P5_550G</loc>
+  <lastmod>2022-06-03T23:08:42+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://it-car.by/cars/ID4X_pure_gray</loc>
-	<lastmod>2022-05-09T02:59:12+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://it-car.by/cars/Han_EV_Extra</loc>
+  <lastmod>2022-06-03T23:08:39+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://it-car.by/cars/ID4X_pure_blue</loc>
-	<lastmod>2022-05-09T02:59:12+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://it-car.by/cars/BYD_Yuan_Pro</loc>
+  <lastmod>2022-06-03T23:08:38+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://it-car.by/cars/ID4X_pure_white</loc>
-	<lastmod>2022-05-09T02:59:12+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://it-car.by/cars/Hongqi_E_QM5</loc>
+  <lastmod>2022-06-03T23:08:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://it-car.by/cars/ID6X_prime_white</loc>
-	<lastmod>2022-05-09T02:59:12+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://it-car.by/cars/ID4X_prime_blue</loc>
+  <lastmod>2022-05-09T16:30:25+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://it-car.by/cars/ID6X_prime_gray</loc>
-	<lastmod>2022-05-09T02:59:12+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://it-car.by/cars/ID4X_pure_gray</loc>
+  <lastmod>2022-05-09T16:30:27+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://it-car.by/cars/ID6X_pure_white</loc>
-	<lastmod>2022-05-09T02:59:12+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://it-car.by/cars/ID4X_pure_blue</loc>
+  <lastmod>2022-05-09T16:30:26+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://it-car.by/cars/ID6X_pure_gold</loc>
-	<lastmod>2022-05-09T02:59:12+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://it-car.by/cars/ID4X_pure_white</loc>
+  <lastmod>2022-05-09T16:30:27+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://it-car.by/cars/ID3_pro_gray</loc>
-	<lastmod>2022-05-09T02:59:12+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://it-car.by/cars/ID6X_prime_white</loc>
+  <lastmod>2022-05-09T16:30:27+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://it-car.by/cars/ID3_pro_white</loc>
-	<lastmod>2022-05-09T02:59:12+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://it-car.by/cars/ID6X_prime_gray</loc>
+  <lastmod>2022-05-09T16:30:27+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://it-car.by/cars/ID3_pure_gray</loc>
-	<lastmod>2022-05-09T02:59:12+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://it-car.by/cars/ID6X_pure_white</loc>
+  <lastmod>2022-05-09T16:30:27+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://it-car.by/cars/ID3_pure_white</loc>
-	<lastmod>2022-05-09T02:59:12+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://it-car.by/cars/ID6X_pure_gold</loc>
+  <lastmod>2022-05-09T16:30:27+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://it-car.by/cars/ID6X_pure_burgundi</loc>
-	<lastmod>2022-05-09T02:59:13+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://it-car.by/cars/ID3_pro_gray</loc>
+  <lastmod>2022-05-09T16:30:25+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://it-car.by/cars/ID6X_pure_indigo</loc>
-	<lastmod>2022-05-09T02:59:13+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://it-car.by/cars/ID3_pro_white</loc>
+  <lastmod>2022-05-09T16:30:25+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://it-car.by/cars/ID4X_prime_brown</loc>
-	<lastmod>2022-05-09T02:59:13+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://it-car.by/cars/ID3_pure_gray</loc>
+  <lastmod>2022-05-09T16:30:25+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://it-car.by/cars/ID4X_prime_red</loc>
-	<lastmod>2022-05-09T02:59:13+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://it-car.by/cars/ID3_pure_white</loc>
+  <lastmod>2022-05-09T16:30:25+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://it-car.by/cars/ID4X_prime_yellow</loc>
-	<lastmod>2022-05-09T02:59:13+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://it-car.by/all_news/how_to_choose_a_car</loc>
+  <lastmod>2022-06-03T23:07:47+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://it-car.by/cars/ID6X_prime_burgundi</loc>
-	<lastmod>2022-05-09T02:59:13+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://it-car.by/all_news/TESLA_vs_BYD</loc>
+  <lastmod>2022-06-03T23:07:47+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://it-car.by/cars/ID6X_prime_indigo</loc>
-	<lastmod>2022-05-09T02:59:13+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://it-car.by/cars/ID6X_pure_burgundi</loc>
+  <lastmod>2022-05-09T16:30:27+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://it-car.by/cars/ID4X_pure_brown</loc>
-	<lastmod>2022-05-09T02:59:14+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://it-car.by/cars/ID6X_pure_indigo</loc>
+  <lastmod>2022-05-09T16:30:27+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://it-car.by/cars/ID4X_pure_red</loc>
-	<lastmod>2022-05-09T02:59:14+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://it-car.by/cars/ID4X_prime_brown</loc>
+  <lastmod>2022-05-09T16:30:26+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://it-car.by/cars/ID4X_pure_yellow</loc>
-	<lastmod>2022-05-09T02:59:14+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://it-car.by/cars/ID4X_prime_red</loc>
+  <lastmod>2022-05-09T16:30:26+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://it-car.by/cars/ID3_pro_blue</loc>
-	<lastmod>2022-05-09T02:59:15+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://it-car.by/cars/ID4X_prime_yellow</loc>
+  <lastmod>2022-05-09T16:30:26+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://it-car.by/cars/ID3_pro_red</loc>
-	<lastmod>2022-05-09T02:59:15+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://it-car.by/cars/ID6X_prime_burgundi</loc>
+  <lastmod>2022-05-09T16:30:27+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://it-car.by/cars/ID3_pro_yellow</loc>
-	<lastmod>2022-05-09T02:59:15+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://it-car.by/cars/ID6X_prime_indigo</loc>
+  <lastmod>2022-05-09T16:30:27+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://it-car.by/cars/ID3_pure_blue</loc>
-	<lastmod>2022-05-09T02:59:16+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://it-car.by/cars/ID4X_pure_brown</loc>
+  <lastmod>2022-05-09T16:30:27+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-	<loc>https://it-car.by/cars/ID3_pure_red</loc>
-	<lastmod>2022-05-09T02:59:16+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://it-car.by/cars/ID4X_pure_red</loc>
+  <lastmod>2022-05-09T16:30:27+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-	<loc>https://it-car.by/cars/ID3_pure_yellow</loc>
-	<lastmod>2022-05-09T02:59:16+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://it-car.by/cars/ID4X_pure_yellow</loc>
+  <lastmod>2022-05-09T16:30:27+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-	<loc>https://it-car.by/cars/ID4X_prime_gray</loc>
-	<lastmod>2022-05-09T02:59:16+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://it-car.by/cars/ID3_pro_blue</loc>
+  <lastmod>2022-05-09T16:30:25+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
+<url>
+  <loc>https://it-car.by/cars/ID3_pro_red</loc>
+  <lastmod>2022-05-09T16:30:25+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://it-car.by/cars/ID3_pro_yellow</loc>
+  <lastmod>2022-05-09T16:30:25+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://it-car.by/cars/ID3_pure_blue</loc>
+  <lastmod>2022-05-09T16:30:25+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://it-car.by/cars/ID3_pure_red</loc>
+  <lastmod>2022-05-09T16:30:25+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://it-car.by/cars/ID3_pure_yellow</loc>
+  <lastmod>2022-05-09T16:30:25+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://it-car.by/cars/ID4X_prime_gray</loc>
+  <lastmod>2022-05-09T16:30:26+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
 </urlset>
