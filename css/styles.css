@@ -10,7 +10,7 @@ body{
 	color: #212120;
 	margin: 0px;	
 	font-family: 'Exo 2', sans-serif;
-   background-color: #DEDEDE;
+   background-color: #fff;
 }
 a{
 	text-decoration: none;
@@ -34,7 +34,7 @@ a:active{
 #center_up_list{
    height: 80px; 	
    position: relative;
-   top: 20px;
+   top: 11px;
    text-align: right;
    width: 193px;
    display: inline-block;
@@ -143,6 +143,12 @@ ul {
    }/*
 }
 */
+.center_contacts{
+   margin-bottom: 3px;
+}
+.center_contacts:last-child{
+   margin-bottom: 0;
+}
 #open_list{
    color: white;
    float: right;
@@ -360,8 +366,7 @@ body{
    }   
 }
 #all-body{
-   background-color: #DEDEDE;
-
+   background-color: #fff;
 }
 
 
@@ -416,7 +421,7 @@ body{
 }
 @media (max-width: 750px){
    #main_back h1:first-child{
-      font-size: 50px;
+      font-size: 42px;
    }
 }
 .commercial{
@@ -556,7 +561,7 @@ button:active{
 #end_box{
    text-align: center;
    color:#464644;
-   background-color :#D0D0D0; 
+   background-color :#e1e1e1; 
 }
 
 .end_menu{
@@ -576,7 +581,7 @@ button:active{
 .last_box{
    height: 60px;
    width:100%;
-   color:#E3E3E3;
+   color:#f2f2f2;
    background-color:#282828;
    position:relative;
    display: flex;
@@ -617,7 +622,7 @@ button:active{
 
 
 .car_information {
-   background-color: #DEDEDE;
+   /* background-color: #fff; */
    margin-top: 20px;
    display: flex;
    flex-wrap: wrap;
@@ -660,7 +665,7 @@ td {
 #model{
    font-size: 50px;
 }
-#make-order{
+.main-button, #make-order{
    border: none;
    font-size: 40px;
    margin-top: 30px;
@@ -671,12 +676,23 @@ td {
    cursor: pointer;
    transition: all 0.3s;
 }
-#make-order:hover{
+.main-button:hover, #make-order:hover{
     background-color: #A4976A; 
 }
-#make-order:active{
+.main-button:active, #make-order:active{
    background-color: #A89B6D;
    border:none;
+}
+.main-button{
+   font-size: calc( 35% + 4vw );		
+   margin:auto;
+   width: max-content;
+   padding: 20px 5% 20px 5%;
+}
+@media (min-width: 617px){
+   .main-button{				
+       font-size: 30px;
+   }
 }
 /*end photos*/
 #pop-order{
@@ -770,7 +786,7 @@ td {
 
 #box_characterstics {
    width: 100%;
-   background-color: #DEDEDE;
+   /* background-color: #fff; */
    /* padding-bottom: 30px; */
    padding-top: 40px;
    margin-bottom: 50px;
@@ -781,7 +797,7 @@ td {
    width: 80%;
    max-width: 1000px;
  /*  min-width: 793px;*/
-   background-color: #E3E3E3;
+   background-color: #f2f2f2;
    border-radius: 7px;  
    font-weight:500;
    -webkit-box-shadow: 0px 0px 32px 0px rgba(80,80,80, 0.22);
@@ -822,12 +838,12 @@ padding-right: 10px;
    text-align: right;
    height: 25px;
    position: relative;
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e3e3e3+0,c0c0c0+100 */
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f2f2f2+0,c0c0c0+100 */
 background: rgb(227,227,227); /* Old browsers */
 background: -moz-linear-gradient(top,  rgba(227,227,227,1) 0%, rgba(192,192,192,1) 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top,  rgba(227,227,227,1) 0%,rgba(192,192,192,1) 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom,  rgba(227,227,227,1) 0%,rgba(192,192,192,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3e3e3', endColorstr='#c0c0c0',GradientType=0 ); /* IE6-9 */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#c0c0c0',GradientType=0 ); /* IE6-9 */
 
 border-radius: 7px;  
 }
@@ -946,7 +962,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6c6c6', end
    max-width: 1000px;
    text-align: center;
    margin: auto;
-   background-color: #E3E3E3;
+   background-color: #f2f2f2;
    border-radius: 7px;  
    font-weight:500;
    -webkit-box-shadow: 0px 0px 32px 0px rgba(80,80,80, 0.22);
@@ -959,7 +975,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6c6c6', end
    max-width: 1000px;
    text-align: center;
    margin: auto;
-   background-color: #E3E3E3;
+   background-color: #f2f2f2;
    border-radius: 7px;  
    font-weight:500;
    -webkit-box-shadow: 0px 0px 32px 0px rgba(80,80,80, 0.22);
@@ -1039,6 +1055,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6c6c6', end
    overflow: hidden;
    opacity: 0;
    user-select: none;
+   cursor: pointer;
 }
 
 #arrow_up>i{
@@ -1124,7 +1141,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6c6c6', end
 #list_border{
    width: 80%;
    max-width: 1200px;
-   background-color: #E3E3E3;
+   background-color: #f2f2f2;
    border-radius: 10px;
    margin: auto;
    margin-top: 40px;
@@ -1175,7 +1192,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6c6c6', end
    justify-content: space-around;
 }
 .short_price{
-   background-color: #E3E3E3;/*#DCDCDC*/
+   background-color: #f2f2f2;/*#DCDCDC*/
    width: 40%;
    margin: auto;
    margin-bottom: 20px;
@@ -1208,7 +1225,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6c6c6', end
    width: 80%;
    max-width: 1200px;
    min-width: 100px;
-   background-color: #E3E3E3;
+   background-color: #f2f2f2;
    border-radius: 10px;
    margin: auto;
    -webkit-box-shadow: 0px 0px 32px 0px rgb(80 80 80 / 22%);
@@ -1964,12 +1981,12 @@ display: block;
    text-align: right;
    height: 25px;
    position: relative;
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e3e3e3+0,c0c0c0+100 */
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f2f2f2+0,c0c0c0+100 */
 background: rgb(227,227,227); /* Old browsers */
 background: -moz-linear-gradient(top,  rgba(227,227,227,1) 0%, rgba(192,192,192,1) 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top,  rgba(227,227,227,1) 0%,rgba(192,192,192,1) 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom,  rgba(227,227,227,1) 0%,rgba(192,192,192,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3e3e3', endColorstr='#c0c0c0',GradientType=0 ); /* IE6-9 */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#c0c0c0',GradientType=0 ); /* IE6-9 */
 
 border-radius: 7px;  
 }
@@ -2025,7 +2042,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6c6c6', end
 #header_info_price, .header_info_price{  
    text-align: center;
    margin: auto;
-   background-color: #E3E3E3;
+   background-color: #f2f2f2;
    border-radius: 7px;  
    font-weight:500;
    -webkit-box-shadow: 0px 0px 32px 0px rgba(80,80,80, 0.22);
@@ -2334,4 +2351,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6c6c6', end
 .p_news{
    margin-top: 20px;
    margin-bottom: 20px;
+}
+
+.news_img_dscrptn{
+   color: rgb(121, 130, 139);
+   font-size: 15px;
+   text-align: center;
+   width: 85%;
+   margin: auto;
+   margin-bottom: 30px;
 }
