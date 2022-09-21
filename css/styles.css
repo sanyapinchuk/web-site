@@ -1872,6 +1872,7 @@ option {outline: none;}
    font-size: 30px;
    padding-top: 5px;
    height: 45px;
+   font-weight: 500;
    margin-right: 18px;
    text-align: center;
    background-image: url('../images/icons/circle.png');
@@ -2090,7 +2091,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6c6c6', end
 .team_photos{
    max-width: 400px;
    margin-top: 30px;
-   background-color: #E7E7E7;
+   background-color: #ededed;
    border: 1px solid gray;
    border-bottom-left-radius: 45px;
    border-top-right-radius: 45px;
