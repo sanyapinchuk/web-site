@@ -2252,14 +2252,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6c6c6', end
 .one_news{
    margin: 20px;
    width: 400px;
-   background-color: #E5E5E5;
+   background-color: #efefef;
    text-align: center;
    border-radius: 15px;
    overflow: hidden;
    transition: all 0.4s;
 }
 .one_news:hover{
-   background-color: #f2f2f2;
+   background-color: #f5f5f5;
 }
 .news_title{
    font-weight: 600;
