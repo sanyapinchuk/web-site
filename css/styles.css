@@ -2115,8 +2115,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6c6c6', end
    min-width: 189px;
 
 }
-.team_text{
+.team_text {
    width: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
 }
 .team_name{
    margin-top: 30px;
