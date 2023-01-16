@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        form{
+            text-align: center;
+            margin-left: 45%;
+            margin-top: 100px;
+        }
+        input{
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <form method="post" action="3.php">
+        <input type="text" name="message" value="">
+        <input type="text" name="message2" value="">
+        <input type="submit" value="Show">
+    </form>
+</body>
+</html>
